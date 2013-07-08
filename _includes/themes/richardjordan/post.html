@@ -1,0 +1,66 @@
+<div class="page-header">
+  <h1>{{ page.title }} {% if page.tagline %}<br/><small>{{page.tagline}}</small>{% endif %}</h1>
+</div>
+
+
+<div class="c-PostInfo clearfix">
+  <div class="c-PostInfo-date">
+    <small>
+      {{ page.date | date_to_long_string }}
+    </small>
+  </div>
+ {% if page.firstpublished %}
+  <div class="c-PostInfo-firstPublished">
+    <small>
+      <a href="{{page.firstpublishedlink}}">
+        originally published on {{page.firstpublished}}
+      </a>
+    </small>
+  </div>
+ {% endif %}
+</div>
+
+<div class="c-PageContent">
+  {{ content }}
+</div>
+
+
+<div class="l-ButtonLists clearfix">
+  {% unless page.tags == empty %}
+    <ul class="m-TagList clearfix">
+      {% assign tags_list = page.tags %}
+      {% include JB/tags_list %}
+    </ul>
+  {% endunless %}
+
+  {% unless page.categories == empty %}
+    <ul class="m-CategoryList clearfix">
+      {% assign categories_list = page.categories %}
+      {% include JB/categories_list %}
+    </ul>
+  {% endunless %}
+</div>
+
+<div class="l-Pagination">
+  <ul class="m-Pagination clearfix">
+  {% if page.previous %}
+    <li class="c-Pagination-itemPrevious "><a href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">&larr; Previous</a></li>
+  {% else %}
+    <li class="c-Pagination-itemPrevious DISABLED "><a>&larr; Previous</a></li>
+  {% endif %}
+    <li class="c-Pagination-item">
+      <a href="{{ BASE_PATH }}{{ site.JB.archive_path }}">
+        | Archive |
+      </a>
+    </li>
+  {% if page.next %}
+    <li class="c-Pagination-itemNext"><a href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">Next &rarr;</a></li>
+  {% else %}
+    <li class="c-Pagination-itemNext DISABLED"><a>Next &rarr;</a></li>
+  {% endif %}
+  </ul>
+</div>
+
+<!-- <hr> -->
+
+    {% include JB/comments %}

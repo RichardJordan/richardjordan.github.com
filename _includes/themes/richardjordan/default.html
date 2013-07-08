@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<!--[if lt IE 7]>      <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en">  <!--<![endif]-->
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>
+    {% if page.title %} {{ page.title }} | {% endif %} Richard Jordan
+  </title>
+
+  <meta name="description" content="Personal Blog">
+  <meta name="author" content="Richard D. Jordan">
+
+  <link rel="stylesheet" href="{{ ASSET_PATH }}/css/style.css?body=1" />
+
+</head>
+
+<body class="Page">
+  <header id="page-head" class="m-PageHead">
+    <h1 class="c-PageHead-title">
+      <span class="c-PageHead-titleElement">Richard</span>
+      <span class="c-PageHead-titleElement">Jordan</span>
+    </h1>
+  </header>
+
+  <nav id="page-nav" class="m-PageNav clearfix">
+    <ul class="c-PageNav-list clearfix">
+      <!-- <div class="l-PageNav"> -->
+        <li class="c-PageNav-item">
+          <a href="/" title="Home Page" class="c-PageNav-itemLink">
+            HOME
+          </a>
+        </li>
+        <li class="c-PageNav-item">
+          <a class="c-PageNav-itemLink" href="/other_link">
+            OTHER
+          </a>
+        </li>
+        <li class="c-PageNav-item">
+          <a class="c-PageNav-itemLink" href="/about" >
+            ABOUT
+          </a>
+        </li>
+        <li class="c-PageNav-item">
+          <a class="c-PageNav-itemLink" href="/contact">
+            CONTACT
+          </a>
+        </li>
+      <!-- </div> -->
+    </ul>
+  </nav>
+
+  <div class="m-PageCont">
+    {{ content }}
+  </div>
+
+  <footer id="page-foot" class="m-MainFooter">
+    <div class="l-MainFooter">
+      <small class="c-MainFooter-copyright">
+        &copy; Copyright Richard D. Jordan, 1997-2013. All Rights Reserved.
+      </small>
+    </div>
+  </footer>
+
+</body>
+
+
+</html>

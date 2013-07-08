@@ -1,4 +1,15 @@
-<div id="disqus_thread"></div>
+<div class="m-Comments-disqus">
+  {% if page.firstpublished %}
+    <div class="c-Comments-note">
+      NOTE: Any comments from the original posting are not included here but can be found on <small>
+      <a href="{{page.firstpublishedlink}}">
+        {{page.firstpublished}}
+      </a>
+    </small>
+    </div>
+  {% endif %}
+  <div id="disqus_thread"></div>
+</div>
 <script type="text/javascript">
     {% if site.safe == false %}var disqus_developer = 1;{% endif %}
     var disqus_shortname = '{{ site.JB.comments.disqus.short_name }}'; // required: replace example with your forum shortname
