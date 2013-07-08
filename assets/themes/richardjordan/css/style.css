@@ -645,8 +645,6 @@ li.DISABLED > a:hover, li.DISABLED > a:active {
   /*background-color: #859900;*/  /*solarized: green;*/
 }
 .m-PageHead {
-
-  /*color: #839496;*/  /*solarized: base0;*/
   color: #af8700;  /*solarized: green;*/
 
   background-color: #002b36;  /*solarized: base03;*/
