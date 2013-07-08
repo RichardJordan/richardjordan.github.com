@@ -2,7 +2,7 @@
 layout: post
 category: blog
 tags:  [media, games]
-title: "Why the games industry has less to fear than the music & TV industries, in moving online"
+title: "Why the games industry has less to fear than the music &amp; TV industries, in moving online"
 
 firstpublished:     "tumblr"
 firstpublishedlink: "http://richardjordan.tumblr.com"
