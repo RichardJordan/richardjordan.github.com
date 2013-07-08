@@ -11,6 +11,12 @@ body {
   font-size:   123.1%;
   line-height: 150%;
 }
+@media only screen and (max-width: 479px) {
+  body {
+    font-size:   100%;
+    line-height: 150%;
+  }
+}
 img {
   display:block;
 }
@@ -59,6 +65,15 @@ li > p {
     height:           96px;
     background-size: 98px 96px;
   }
+}
+
+.c-PageHead-title a
+.c-PageHead-title a:link,
+.c-PageHead-title a:visited,
+.c-PageHead-title a:hover,
+.c-PageHead-title a:active {
+  text-decoration:none;
+  color: #af8700;
 }
 
 .c-PageHead-title {
@@ -150,7 +165,46 @@ li > p {
   font-weight:      bold;
 }
 
+/* ================================= LIST =========================== */
+
+.m-PostList {
+  list-style: none;
+  margin:0;
+  padding:0;
+  padding-top: 5px;
+  border-top: 3px solid #002b36;
+}
+.c-ListContent {
+  width:       880px;
+  margin:      30px;
+  /*border-top: solid 1px;*/
+}
+@media only screen and (min-width: 768px) and (max-width: 959px) {.c-ListContent {width:690px;}}
+@media only screen and (min-width: 480px) and (max-width: 767px) {.c-ListContent {width:410px;margin: 20px;}}
+@media only screen and (max-width: 479px) {.c-ListContent {width:270px;margin: 10px;}}
+
+.c-ListItem-post{
+  padding:5px 0px;
+}
+.c-ListItem-post:hover {
+  background-color: #eee8d5;
+  outline: 5px solid #eee8d5;
+}
+.c-ListItem-postDate,
+.c-ListItem-postTitle {
+  float:left;
+}
+.c-ListItem-postDate  { width: 110px; margin-right:10px;}
+.c-ListItem-postTitle { width:750px; margin-left: 10px;}
+@media only screen and (min-width: 768px) and (max-width: 959px) {.c-ListItem-postTitle {width:550px;}}
+@media only screen and (min-width: 480px) and (max-width: 767px) {.c-ListItem-postTitle {width:290px;margin-left:0px;}}
+@media only screen and (max-width: 479px) {.c-ListItem-postTitle {width:150px;margin-left:0px;}}
+
 /* ================================= CONT =========================== */
+
+.m-Video {
+  text-align:center;
+}
 
 .m-PageCont {
   width:      950px;
@@ -212,17 +266,17 @@ h4 { margin: 10px 30px; }
   h1 { margin: 30px 20px; }
   h2 { margin: 20px 20px; }
   h3 { margin: 15px 20px; }
-  h4 { margin: 10px 30px; }
+  h4 { margin: 10px 20px; }
 }
 @media only screen and (max-width: 479px) {
   h1 { margin: 30px 10px; }
   h2 { margin: 20px 10px; }
   h3 { margin: 15px 10px; }
-  h4 { margin: 10px 30px; }
+  h4 { margin: 10px 10px; }
 }
 
 h1 {
-  font-size:   200%;
+  font-size:   225%;
   line-height: 120%;
 }
 h2 {

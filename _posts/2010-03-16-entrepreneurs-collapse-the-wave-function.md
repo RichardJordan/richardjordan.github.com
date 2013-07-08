@@ -9,13 +9,11 @@ firstpublishedlink: "http://richardjordan.tumblr.com"
 ---
 {% include JB/setup %}
 
-
-
 I’ve come to a satisfying analogy when it comes to an important core-skill of entrepreneurs.  
 
 ## True entrepreneurs collapse the wave function.
 
-I am a physicist by training.  But long before I ever studied Physics at the University of Leeds I was gripped by quantum mechanics.  The picture of the world painted by quantum mechanics, and verified to incredible levels of precision, is famously counter-intuitive.  
+I am a physicist by education.  But long before I ever studied Physics at the University of Leeds I was gripped by quantum mechanics.  The picture of the world painted by quantum mechanics, and verified to incredible levels of precision, is famously counter-intuitive.  
 
 In quantum mechanics everything exists in all possible states at the same time.  One represents everything, even the reader, by a “wave function" which takes into account all of these possible states.  It’s only when one takes a measurement that anything takes on a single observable value.  This observation itself “collapses the wave function" from a particle being in all possible states simultaneously into being in one specific observable state.  The example of Schrodinger’s cat is often trotted out here, the poor beast trapped in a box, subjected to a random event that can either kill or not kill the cat, causing it to exist in a peculiar limbo until the box is open and the dead/notdead cat is observed.
 
