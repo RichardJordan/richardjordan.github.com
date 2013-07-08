@@ -18,6 +18,15 @@
     </small>
   </div>
  {% endif %}
+  {% if page.othersource%}
+  <div class="c-PostInfo-firstPublished">
+    <small>
+      <!-- <a href="{{page.firstpublishedlink}}"> -->
+        {{page.othersource}}
+      <!-- </a> -->
+    </small>
+  </div>
+ {% endif %}
 </div>
 
 <div class="c-PageContent">

@@ -1,7 +1,7 @@
 ---
 layout: post
 category: blog
-tags:  [startup live, movies, random musings]
+tags:  [startup life, movies, random musings]
 title: "Rooftop Cinema: Big Trouble In Little China"
 
 firstpublished:     "tumblr"
