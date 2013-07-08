@@ -24,4 +24,5 @@ I suppose you have to love the title’s demand - only comment if you’re a law
 
 Intellectual relativism sucks.  When those whose profession is the conduct of public discourse are so heavily mired in it, it doesn’t bode well for the future.
 
+
 *From the ‘evernotes that never got blogged’ archive, originally written up February 4th 2012, finally published to Tumblr April 5th 2013.  It could do with a lot more editing.*
